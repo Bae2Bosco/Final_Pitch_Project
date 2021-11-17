@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    background-color: gold;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.wrapper{
+    padding-top: 80px;
+    padding-left: 8px;
+    text-align: center;
+    font-size: smaller;
+}
+
+h1,h2,h3{
+    margin-bottom: 16px;
+    color: white;
+}
+
+.container1{
+    color: white;
+    margin: 55px;
+}
+
+p{
+    background-color: azure;
+    margin-bottom: 20px;
+}
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.bar{
+    height: 5px;
+    width: 60%;
+    background-color: white;
+}
+
+.menu{
+    position: fixed;
+    top: 60px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgba(129,135,255,0.89);
+    min-height: 150px;
+    transition: 0.125s;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: yellow;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
